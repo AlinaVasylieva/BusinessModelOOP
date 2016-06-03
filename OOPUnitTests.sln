@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPUnitTests", "OOPUnitTests\OOPUnitTests.csproj", "{D9BBAE83-D0D1-49F1-9EC0-5D5285507172}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0D94BDDF-0ED2-4BC2-96A5-E56EB31B178B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPTests", "OOPTests\OOPTests.csproj", "{CEC67E38-82BA-4DB6-A9C7-C6B12978C2A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,15 @@ Global
 		{D9BBAE83-D0D1-49F1-9EC0-5D5285507172}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9BBAE83-D0D1-49F1-9EC0-5D5285507172}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9BBAE83-D0D1-49F1-9EC0-5D5285507172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEC67E38-82BA-4DB6-A9C7-C6B12978C2A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEC67E38-82BA-4DB6-A9C7-C6B12978C2A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEC67E38-82BA-4DB6-A9C7-C6B12978C2A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEC67E38-82BA-4DB6-A9C7-C6B12978C2A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CEC67E38-82BA-4DB6-A9C7-C6B12978C2A7} = {0D94BDDF-0ED2-4BC2-96A5-E56EB31B178B}
 	EndGlobalSection
 EndGlobal
