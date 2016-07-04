@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D9BBAE83-D0D1-49F1-9EC0-5D5285507172}</ProjectGuid>
+    <ProjectGuid>{3E965215-0EA1-4968-91C2-06B649AAEA97}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OOPUnitTests</RootNamespace>
-    <AssemblyName>OOPUnitTests</AssemblyName>
+    <RootNamespace>OOP.Common</RootNamespace>
+    <AssemblyName>OOP.Common</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,25 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Address.cs" />
-    <Compile Include="AddressRepositorycs.cs" />
-    <Compile Include="Customer.cs" />
-    <Compile Include="CustomerRepository.cs" />
-    <Compile Include="EntityBase.cs" />
-    <Compile Include="Order.cs" />
-    <Compile Include="OrderDisplay.cs" />
-    <Compile Include="OrderDisplayItem.cs" />
-    <Compile Include="OrderItem.cs" />
-    <Compile Include="OrderRepository.cs" />
-    <Compile Include="Product.cs" />
-    <Compile Include="ProductRepository.cs" />
+    <Compile Include="StringHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\OOP.Common\OOP.Common.csproj">
-      <Project>{3e965215-0ea1-4968-91c2-06b649aaea97}</Project>
-      <Name>OOP.Common</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

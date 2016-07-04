@@ -70,10 +70,21 @@ namespace OOPUnitTests
             return orderDisplay;
         }
 
-        public bool Save()
+        public bool Save(Product product)
         {
-            //Code that saves the defined customer
-            return true;
+            var success = true;
+            if (product.HasChanges && product.IsValid)
+            {
+                if (product.IsNew)
+                {
+                    //Call an Insert Stored Procedure
+                }
+                else
+                {
+                    //Call an Update Stored Procedure
+                }
+            }
+            return success;
         }
     }
 }
